@@ -52,5 +52,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(materi);
             }
         });
+
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent about = new Intent(MainActivity.this, TentangActivity.class);
+                startActivity(about);
+            }
+        });
     }
 }
