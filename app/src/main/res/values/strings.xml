@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">InovasiPembelajaran</string>
+    <string name="app_name">Syarif Academy</string>
+    <string name="title_activity_pertanyaan_pemantik">PertanyaanPemantik</string>
+    <string name="tujuan_pembelajaran">Tujuan pembelajaran sangat penting dalam proses belajar-mengajar. Tujuan pembelajaran atau instructional objective adalah perilaku hasil belajar yang diharapkan terjadi, dimiliki, atau dikuasai oleh peserta didik setelah mengikuti kegiatan pembelajaran tertentu.
+    Tujuan pembelajaran merupakan arah yang ingin dituju dari rangkaian aktivitas yang dilakukan dalam proses pembelajaran. Hal ini biasanya dirumuskan dalam bentuk perilaku kompetensi spesifik, aktual, dan terukur sesuai yang diharapkan terjadi, dimiliki, atau dikuasai siswa setelah mengikuti kegiatan pembelajaran tertentu. </string>
 </resources>

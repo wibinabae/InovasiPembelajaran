@@ -38,7 +38,7 @@
         android:textColor="#1C1B1B"/>
 
         <android.widget.Button
-            android:id="@+id/btnSatu"
+            android:id="@+id/btnTujuanPembelajaran"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_custom"
@@ -46,9 +46,11 @@
             android:textColor="@color/white"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"/>
 
         <android.widget.Button
+            android:id="@+id/btnPertanyaan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_custom"
@@ -56,8 +58,11 @@
             android:textColor="@color/white"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"/>
+
         <android.widget.Button
+            android:id="@+id/btnPetaKonsep"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_custom"
@@ -65,8 +70,11 @@
             android:textColor="@color/white"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"/>
+
         <android.widget.Button
+            android:id="@+id/btnMateri"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_custom"
@@ -74,8 +82,11 @@
             android:textColor="@color/white"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"/>
+
         <android.widget.Button
+            android:id="@+id/btnTentang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_custom"
@@ -83,7 +94,8 @@
             android:textColor="@color/white"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"/>
 
 
     </LinearLayout>
