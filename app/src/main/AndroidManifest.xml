@@ -14,11 +14,11 @@
         android:theme="@style/Theme.InovasiPembelajaran"
         tools:targetApi="31">
         <activity
-            android:name="PertanyaanPemantik"
+            android:name=".PemantikActivity"
             android:exported="false"
             android:label="@string/title_activity_pertanyaan_pemantik" />
         <activity
-            android:name=".TujuanPembelajaran"
+            android:name=".PembelajaranActivity"
             android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity

@@ -6,7 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
-public class TujuanPembelajaran extends AppCompatActivity {
+public class PembelajaranActivity extends AppCompatActivity {
 //Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

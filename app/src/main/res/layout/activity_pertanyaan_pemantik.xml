@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PertanyaanPemantik">
+    tools:context=".PemantikActivity">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pertanyaan Pemantik"/>
+        android:layout_height="match_parent"
+        android:id="@+id/tvIsi"
+        />
 </LinearLayout>
