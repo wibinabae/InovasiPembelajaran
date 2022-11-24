@@ -7,8 +7,11 @@
         <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1" />
         <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/drawable/ic_logo_background.xml" value="0.162" />
         <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_bar.xml" value="0.1" />
-        <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_konsep.xml" value="0.22447916666666667" />
+        <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_materi.xml" value="0.22447916666666667" />
         <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_pertanyaan_pemantik.xml" value="0.16354166666666667" />
+        <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_tentang.xml" value="0.14479166666666668" />
         <entry key="..\:/MobileApps/InovasiPembelajaran/app/src/main/res/layout/activity_tujuan_pembelajaran.xml" value="0.25" />
       </map>
     </option>

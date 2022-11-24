@@ -9,29 +9,28 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class PemantikActivity extends AppCompatActivity {
+public class KonsepActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pertanyaan_pemantik);
+        setContentView(R.layout.activity_konsep);
+        setTitle("Peta Konsep");
 
-        setTitle("Pertanyaan Pemantik");
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_ios_24);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        DBPemantik dbPemantik = new DBPemantik(PemantikActivity.this);
+        DBKonsep dbKonsep = new DBKonsep(KonsepActivity.this);
 
-        TextView tvIsi = (TextView) findViewById(R.id.tvIsi);
-        if (dbPemantik.isNull())
-        {
-            Log.d("test","kosong");
-        }else
-        {
-            Log.d("test","isi");
+        TextView tvKonsep = (TextView) findViewById(R.id.tvKonsepIsi);
+
+        if (dbKonsep.isNull()) {
+            Log.d("test", "kosong");
+        } else {
+            Log.d("test", "isi");
         }
-        tvIsi.setText(dbPemantik.findMateri().getIsi());
+        tvKonsep.setText(dbKonsep.findMateri().getIsi());
     }
 
     @Override

@@ -9,29 +9,29 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class PemantikActivity extends AppCompatActivity {
+public class MateriActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pertanyaan_pemantik);
+        setContentView(R.layout.activity_materi);
 
-        setTitle("Pertanyaan Pemantik");
+        setTitle("Materi");
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_ios_24);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        DBPemantik dbPemantik = new DBPemantik(PemantikActivity.this);
+        DBMateri dbMateri = new DBMateri(MateriActivity.this);
 
-        TextView tvIsi = (TextView) findViewById(R.id.tvIsi);
-        if (dbPemantik.isNull())
+        TextView tvMateri = (TextView) findViewById(R.id.tvMateri);
+        if (dbMateri.isNull())
         {
             Log.d("test","kosong");
         }else
         {
             Log.d("test","isi");
         }
-        tvIsi.setText(dbPemantik.findMateri().getIsi());
+        tvMateri.setText(dbMateri.findMateri().getIsi());
     }
 
     @Override

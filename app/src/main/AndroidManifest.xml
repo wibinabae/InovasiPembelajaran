@@ -14,13 +14,22 @@
         android:theme="@style/Theme.InovasiPembelajaran"
         tools:targetApi="31">
         <activity
+            android:name=".TentangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KonsepActivity"
+            android:exported="false" />
+        <activity
             android:name=".PemantikActivity"
             android:exported="false"
             android:label="@string/title_activity_pertanyaan_pemantik" />
         <activity
             android:name=".PembelajaranActivity"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

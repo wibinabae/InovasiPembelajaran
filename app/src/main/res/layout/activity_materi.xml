@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="@dimen/default_dimen"
-    tools:context=".PemantikActivity">
+    tools:context=".MateriActivity">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/tvIsi"
-        />
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_dimen"
+        android:id="@+id/tvMateri"/>
 </LinearLayout>

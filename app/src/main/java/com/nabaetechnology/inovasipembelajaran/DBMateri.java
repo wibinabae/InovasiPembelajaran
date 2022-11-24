@@ -10,7 +10,7 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 public class DBMateri extends SQLiteAssetHelper {
     private static final String DATABASE_NAME="materi_db.sqlite";
     private static final int DATABASE_VERSION=1;
-    private static final String TABLE_NAME="pemantik";
+    private static final String TABLE_NAME="materi";
     private static final String KEY_ID="ID";
     private static final String KEY_ISI ="isi";
 

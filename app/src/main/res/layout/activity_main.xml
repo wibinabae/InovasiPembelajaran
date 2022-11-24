@@ -45,8 +45,8 @@
             android:background="@drawable/btn_custom"
             android:text="Tujuan Pembelajaran"
             android:textColor="@color/white"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="@dimen/right_button"
+            android:layout_marginEnd="@dimen/left_button"
             android:layout_marginBottom="10dp"
             android:padding="20dp"/>
 
@@ -57,8 +57,8 @@
             android:background="@drawable/btn_custom"
             android:text="Pertanyaan Pemantik"
             android:textColor="@color/white"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="@dimen/right_button"
+            android:layout_marginEnd="@dimen/left_button"
             android:layout_marginBottom="10dp"
             android:padding="20dp"/>
 
@@ -69,8 +69,8 @@
             android:background="@drawable/btn_custom"
             android:text="Peta Konsep"
             android:textColor="@color/white"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="@dimen/right_button"
+            android:layout_marginEnd="@dimen/left_button"
             android:layout_marginBottom="10dp"
             android:padding="20dp"/>
 
@@ -81,8 +81,8 @@
             android:background="@drawable/btn_custom"
             android:text="Materi"
             android:textColor="@color/white"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="@dimen/right_button"
+            android:layout_marginEnd="@dimen/left_button"
             android:layout_marginBottom="10dp"
             android:padding="20dp"/>
 
@@ -93,8 +93,8 @@
             android:background="@drawable/btn_custom"
             android:text="Tentang Aplikasi"
             android:textColor="@color/white"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="@dimen/right_button"
+            android:layout_marginEnd="@dimen/left_button"
             android:layout_marginBottom="10dp"
             android:padding="20dp"/>
 

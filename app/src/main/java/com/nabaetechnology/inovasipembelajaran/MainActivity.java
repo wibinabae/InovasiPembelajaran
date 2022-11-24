@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button btTujuanPembelajaran = findViewById(R.id.btnTujuanPembelajaran);
         Button btPertanyaanPemantik = findViewById(R.id.btnPertanyaan);
+        Button btnPetaKonsep    = findViewById(R.id.btnPetaKonsep);
+        Button btnMateri = findViewById(R.id.btnMateri);
+        Button btnAbout =findViewById(R.id.btnTentang);
 
         btTujuanPembelajaran.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +34,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent PerPem = new Intent(MainActivity.this, PemantikActivity.class);
                 startActivity(PerPem);
+            }
+        });
+
+        btnPetaKonsep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent PetKon= new Intent(MainActivity.this, KonsepActivity.class);
+                startActivity(PetKon);
+            }
+        });
+
+        btnMateri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent materi= new Intent(MainActivity.this, MateriActivity.class);
+                startActivity(materi);
             }
         });
     }
